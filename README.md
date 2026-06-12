@@ -25,10 +25,10 @@ On an MP3, the spectrogram shows a sharp horizontal edge near 16 kHz. That's the
 ![spectrogram](screenshot.png)
 
 ## How to run
-Requires Python 3 and:
+Requires Python 3. Install the dependencies:
 
 ```bash
-pip install librosa matplotlib numpy
+pip install -r requirements.txt
 ```
 
-Edit the file path inside `librosa.load(...)` to point at your own audio file, then run the script. Save the output plot as `screenshot.png` in this folder so it appears above.
+Then edit the file path inside `librosa.load(...)` to point at your own audio file, and run the script.
